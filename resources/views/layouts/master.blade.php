@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>My Super Blog</title>
+    <title>Super Blog</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -23,7 +23,7 @@
     <div class="blog-header">
       <div class="container">
         <h1 class="blog-title">My Super Blog</h1>
-        <p class="lead blog-description">Random thoughts, ideas and complaints about life.</p>
+        <p class="lead blog-description">Random thoughts, ideas and opinions about life.</p>
       </div>
     </div>
 

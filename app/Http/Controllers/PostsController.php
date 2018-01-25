@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Post;
 
 class PostsController extends Controller
 {
@@ -22,5 +23,13 @@ class PostsController extends Controller
 
     	return view('posts.create');
     	
+    }
+
+    public function store() {      
+
+        Post::create(request(['title', 'body']));
+
+        return redirect('/');
+
     }
 }
