@@ -15,6 +15,11 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Sign Up</a>
           </li>
+          <li class="nav-item">
+            @if (Auth::check())
+            <a class="nav-link" href="#">Hi, {{ Auth::user()->name }}!</a>
+            @endif
+          </li>
         </ul>
       </div>
     </nav>
